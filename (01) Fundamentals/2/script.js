@@ -35,8 +35,8 @@ console.log(yearsUntilRetirement(1991,"baba "));
 */
 
 
-/*
-/ /Arrays :
+
+//Arrays :
 const friends1 = ["Jasem" , "Abood" , "Saeed"];
 const friends2 = new Array("jasem" , " Abood" , "Saeed");
 console.log(friends1[0]);
@@ -69,7 +69,68 @@ const shifted = array.shift();
 array.indexOf("Abood");
 // Returns Ture if includes and False if not
 array.includes("motherFucker") // Strict
-*/
+
+
+/* Destructing Arrays */
+const arr = [2, 4, 7];
+const [aa, bb, cc] = arr; //   aa=2      bb=4      cc=7
+
+
+const numberArray = ["one", "two", "three", "four", "five" ];
+const [first, second] = numberArray; // one    two
+const [first1, , third3] = numberArray // one    three
+
+
+// Switching variables trick 
+let a = 5; let b = 7;
+//old
+const temp = a;
+a = b;
+b = temp;
+//new 
+[a, b] = [b, a];  
+console.log(a);
+console.log(b);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // OBJECTS
