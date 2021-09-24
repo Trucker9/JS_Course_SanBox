@@ -1,7 +1,7 @@
 1 :
-	 argument Default Value
-	 HighOrder Functions
-	 callByValueAndRefrence
+	 argument Default Value  
+	 HighOrder Functions  
+	 callByValueAndRefrence  
 
 2:	
 	
