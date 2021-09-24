@@ -36,14 +36,6 @@ console.log(yearsUntilRetirement(1991,"baba "));
 
 
 
-//Arrays :
-const friends1 = ["Jasem" , "Abood" , "Saeed"];
-const friends2 = new Array("jasem" , " Abood" , "Saeed");
-console.log(friends1[0]);
-console.log(friends1.length);
-
-friends1[1] = "naser"; // Although it was const
-
 //Ok basically fuck java. look how powerful are the arrays
 const firstName = "Pit";
 const fuckingSoPowerFullArray = [ firstName, // variable
@@ -65,8 +57,6 @@ const popped = array.pop();
 // Remove first element and returns it
 const shifted = array.shift();
 
-// Returns index of an element ( of not exist returns -1)
-array.indexOf("Abood");
 // Returns Ture if includes and False if not
 array.includes("motherFucker") // Strict
 
@@ -83,11 +73,6 @@ const [first1, , third3] = numberArray // one    three
 
 // Switching variables trick 
 let a = 5; let b = 7;
-//old
-const temp = a;
-a = b;
-b = temp;
-//new 
 [a, b] = [b, a];  
 console.log(a);
 console.log(b);

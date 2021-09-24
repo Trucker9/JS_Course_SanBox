@@ -1,20 +1,8 @@
 
-
 /*
 // Constant variable : ALL_CAPS
 let PI = 3.1415;
 */
-
-
-/*
-// old way of multi line string
-console.log(" Hello \n\ world! \n\ newLine");
-//new
-console.log(` Hello
-world
-newLine`);
-*/
-
 
 
 
@@ -53,13 +41,3 @@ switch (day){ // compares strict (===)
         console.log("go kill some mama's");
 }
 */
-
-/*
-//Ternary operator (returns the selected value)
-const age= 23;
-const whatToDrink = age >= 18 ? "Wine 🍷" : "Water 💦";
-console.log(whatToDrink);
-console.log(`I like to drink ${age >= 18 ? "Wine 🍷" : "Water 💦"}`);
-*/
-
-
