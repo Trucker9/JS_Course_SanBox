@@ -13,5 +13,5 @@
     Closures
 
 4:
-    Coding Challenges 
+    Coding Challenges
 	
