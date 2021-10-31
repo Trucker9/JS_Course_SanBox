@@ -10,7 +10,7 @@ let arr = [ "a" , "b" , "c" , "d" , "e"];
    ### ### ###
    */
 /* extracts what is between index 2 and index 4 */
-const sliced = arr.slice( 2 , 4);  // log : c d
+const sliced = arr.slice( 2 , 4);  // log : Bankist App d
 /* minus value : starts from the end (last element is -1, then -2, and so on .. */
 console.log(arr.slice(1, -2));
 /* Creating copy */

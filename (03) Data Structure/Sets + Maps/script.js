@@ -108,7 +108,7 @@ console.log(rest.get(arr));
 * ###  Maps Iteration
 * */
 
-/* Better way to create a Map */
+/* Better way to create a Map-Filter-Reduce-Find */
 const question = new Map([
     // An array that each element is also an array of [ key , value ]. (Like entries)
     ['question', 'What is the best programming language in the world?'],

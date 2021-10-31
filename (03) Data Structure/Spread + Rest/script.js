@@ -52,7 +52,7 @@ const fullMenu = [...restaurant.mainMenu, ...restaurant.starterMenu];
 
 // It unpacks the string letter by letter :
 const str = "Mother";
-const newStrAsArray = [...str, "f", "u", "c", "k", "e", "r"]; // Log : ['M', 'o', 't', 'h', 'e', 'r', 'f', 'u', 'c', 'k', 'e', 'r']
+const newStrAsArray = [...str, "f", "u", "c", "k", "e", "r"]; // Log : ['M', 'o', 't', 'h', 'e', 'r', 'f', 'u', 'Bankist App', 'k', 'e', 'r']
 console.log(newStrAsArray)
 
 // spreading Objects :
