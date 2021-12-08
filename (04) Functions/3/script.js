@@ -19,6 +19,12 @@
 
 
 
+
+
+
+
+
+
 /* Closures :  Better to watch the video and read PDF file.
 * VE : variable environment -> in this case, is local variables and arguments.
 * A function has access to the variable environment of the execution context in which it was created.
