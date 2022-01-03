@@ -186,6 +186,8 @@ const updateUI = function (acc) {
 
 const startLogOutTimer = function () {
   const tick = function () {
+    // trunc -> remove decimal
+    // pad -> 
     const min = String(Math.trunc(time / 60)).padStart(2, 0);
     const sec = String(time % 60).padStart(2, 0);
 
